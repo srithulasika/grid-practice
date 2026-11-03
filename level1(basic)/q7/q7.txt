@@ -1,0 +1,2 @@
+I am learning Git.
+Git helps me track changes in my projects.
