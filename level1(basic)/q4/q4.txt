@@ -1,0 +1,38 @@
+Practice Questions
+
+Complete these levels in order. Save each solution in its own folder (for example
+grid-practice/q1.html) and commit it to Git; this gives you real Git practice at the same time.
+
+Level 1: Basic
+
+4. Convert these px values to rem: 8px, 24px, 32px, 40px (base 16px).
+
+ Root(html) font size=16px 
+
+rem=pixel value/ root(html)  font size
+
+since the root font size is 16px
+
+1)8px 
+  
+   rem=8/16=0.5rem
+
+2)24px
+
+   rem=24/16=1.5rem
+
+3)32px
+
+  rem=32/16=2rem
+
+4)40px
+
+  rem=40/16=2.5rem
+
+
+final answers:
+
+8px -> 0.5rem
+24px -> 1.5rem
+32px -> 2rem
+40px -> 2.5rem
