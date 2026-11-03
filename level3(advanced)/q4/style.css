@@ -1,0 +1,49 @@
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding:15px;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:10px;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 350px;
+}
+
+.image {
+    height: 150px;
+    background-color: lavender;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.card button {
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
