@@ -1,0 +1,7 @@
+4)Make a gallery with repeat(auto-fit, minmax(200px, 1fr)) and explain what happens when you
+resize.
+
+Explanation:
+
+When I increase the browser width, more cards can fit in one row. When I decrease it, 
+fewer cards can fit in one row, so the remaining cards move to the next row.
