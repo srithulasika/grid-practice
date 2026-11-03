@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: antiquewhite;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+.navlinks{
+    list-style:none;
+    font-size:1.25rem;
+    display:flex;
+    padding:0;
+    margin:0;
+    gap:20px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: blueviolet;
+    transition: color 0.3s ease;
+}
+
+.navlinks a:hover {
+    color: blue;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navlinks {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        font-size: 1rem;
+    }
+}
