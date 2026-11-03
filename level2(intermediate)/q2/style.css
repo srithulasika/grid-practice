@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:15px;
+    gap:10px;
+}
+
+.card{
+    background-color: rgb(9, 9, 184);
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.card1{
+    grid-column: span 2;
+}
+
+.card6{
+    grid-column: span 3;
+}
