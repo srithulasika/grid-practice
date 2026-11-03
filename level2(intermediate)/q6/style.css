@@ -1,0 +1,13 @@
+*{
+    box-sizing:border-box;
+}
+
+.btn{
+    background-color: rgb(4, 4, 219);
+    color:white;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:2rem;
+    padding:1em;
+
+}
