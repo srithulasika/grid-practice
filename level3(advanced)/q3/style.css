@@ -1,0 +1,27 @@
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    padding:10px;
+    grid-auto-flow:dense;
+}
+
+.photo{
+    background-color:blue;
+    color:white;
+    padding:15px;
+    text-align:center;
+    font-size:1.5rem;
+}
+
+.photo1,.photo3{
+    grid-column: span 2;
+}
+
+.photo4,.photo5{
+    grid-row:span 2;
+}
