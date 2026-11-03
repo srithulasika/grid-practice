@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F3E8FF;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    padding:15px;
+}
+
+.box{
+    background-color: rgb(131, 32, 224);
+    color:white;
+    padding:20px;
+    text-align: center;
+}
+
+@media (max-width:600px)
+{
+    body{
+    background-color:lightblue;
+}
+}
