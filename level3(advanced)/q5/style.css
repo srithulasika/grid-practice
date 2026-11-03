@@ -1,0 +1,17 @@
+.navbar{
+    display:flex;
+    gap:10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding:10px;
+    font-size:1.25rem;
+    color:blueviolet;
+}
+
+@media ( max-width:600px){
+    .navbar{
+        flex-direction: column;
+    }
+}
