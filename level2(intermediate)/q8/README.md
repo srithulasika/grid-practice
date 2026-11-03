@@ -2,6 +2,8 @@
 
 This project contains my practice tasks on CSS Grid layouts and responsive web layouts.
 
+This project also helped me practise Git branching, commits, pushing, and pulling changes.
+
 ## Features
 
 - CSS Grid layouts using grid-template-columns
